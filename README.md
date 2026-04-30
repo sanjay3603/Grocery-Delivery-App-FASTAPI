@@ -2,6 +2,8 @@
 
 A complete backend system for a grocery delivery application built using FastAPI. This project demonstrates real-world backend concepts such as API design, cart workflows, order processing, and advanced query handling.
 
+---
+
 ### 🚀Features
 RESTful APIs using FastAPI
 Pydantic-based request validation
@@ -13,6 +15,10 @@ Delivery charge calculation (slot-based)
 Search, filter, sorting, and pagination
 Order management with query support
 Interactive API testing via Swagger UI
+
+---
+
+
 ### 🧠 Core Functionalities
 ### 📦 Items
 Add new items
@@ -41,6 +47,9 @@ Pagination support
 Python
 FastAPI
 Pydantic
+
+---
+
 ### ▶️ Run Locally
 1. Clone the repository
 git clone <your-repo-link>
@@ -52,10 +61,14 @@ uvicorn main:app --reload
 4. Open API Docs
 http://127.0.0.1:8000/docs
 
+---
+
 ### 📸 API Preview
 
 Swagger UI is available for testing all endpoints.
 (Add your screenshots inside /screenshots folder)
+
+---
 
 ### 📁 Project Structure
 ### grocery-api/
@@ -65,15 +78,23 @@ Swagger UI is available for testing all endpoints.
 ###   ├── README.md
 ###   └── screenshots/
 
+---
+
 ### ⚠️ Limitations
 Uses in-memory data (no database)
 No authentication or user management
 Not production-ready
+
+---
+
 ### 🎯 Future Improvements
 Add database (SQLite / PostgreSQL with SQLAlchemy)
 Implement authentication (JWT)
 Modular structure (routers, services, models)
 Dockerize the application
+
+---
+
 ### 📌 Author
 
 K Sanjay Kumar
