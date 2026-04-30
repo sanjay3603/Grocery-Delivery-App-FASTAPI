@@ -1,109 +1,78 @@
 🛒 FastAPI Grocery Delivery Backend
 
+A complete backend system for a grocery delivery application built using FastAPI. This project demonstrates real-world backend concepts such as API design, cart workflows, order processing, and advanced query handling.
 
-
-
-
-
-
-
-
-
-
-
-📌 Project Overview
-
-This project is a real-world backend system for a Grocery Delivery Application built using FastAPI.
-
-It demonstrates complete backend development concepts including:
-
-API design
-Data validation
-Business logic implementation
-Multi-step workflows
-🚀 Key Features
-🔹 API & Backend
+🚀 Features
 RESTful APIs using FastAPI
-Clean endpoint design
-Interactive Swagger UI
-🔹 Data Validation
-Pydantic models for request validation
-Proper error handling
-🔹 CRUD Operations
-Create, Read, Update, Delete grocery items
-Dynamic data handling
+Pydantic-based request validation
+Full CRUD operations for grocery items
+Cart management system (add, remove, view items)
+Checkout workflow (cart → orders)
+Bulk order discount (8% for large quantities)
+Delivery charge calculation (slot-based)
+Search, filter, sorting, and pagination
+Order management with query support
+Interactive API testing via Swagger UI
 🧠 Core Functionalities
-📦 Item Management
-Add new grocery items
-Update and delete items
-Search items by keyword
+📦 Items
+Add new items
+Update item details
+Delete items
 Filter by category, price, and stock
-Sort items (price, name)
+Search items by keyword
+Sort items (price, name, etc.)
 Pagination support
-🛒 Cart System
+🛒 Cart
 Add items to cart
-Update quantities automatically
+Merge quantities for existing items
 Remove items from cart
-View cart summary with total price
-💳 Checkout Workflow (Multi-Step ⭐)
-Add items to cart
-Validate item stock
-Apply bulk discount (8%)
-Calculate delivery charges
-Generate order
-Clear cart
-📑 Order Management
-Place orders
-View order history
-Search orders by customer
-Sort orders by price
-Pagination for large datasets
-💡 Business Logic Implemented
-🧮 Bulk Discount: 8% for large quantity orders
-🚚 Delivery Charges: Based on delivery slots
-📊 Dynamic Pricing: Auto total calculation
-🔁 Cart Merge Logic: Avoid duplicate entries
+View cart with total price
+💳 Checkout
+Convert cart into orders
+One order created per item
+Apply bulk discount logic
+Calculate final cost with delivery charges
+📑 Orders
+Place orders directly
+Search orders by customer name
+Sort orders by total cost
+Pagination support
 🛠 Tech Stack
 Python
 FastAPI
 Pydantic
-▶️ How to Run Locally
-1️⃣ Install dependencies
+▶️ Run Locally
+1. Clone the repository
+git clone <your-repo-link>
+cd grocery-api
+2. Install dependencies
 pip install -r requirements.txt
-2️⃣ Run server
+3. Run the server
 uvicorn main:app --reload
-3️⃣ Open Swagger UI
+4. Open API Docs
 http://127.0.0.1:8000/docs
 📸 API Preview
-Swagger UI available for testing all endpoints
-Includes request/response examples
+
+Swagger UI is available for testing all endpoints.
+(Add your screenshots inside /screenshots folder)
+
 📁 Project Structure
 grocery-api/
 │
-├── main.py              # Main FastAPI app
-├── requirements.txt    # Dependencies
-├── README.md           # Project documentation
-└── screenshots/        # API screenshots
+├── main.py
+├── requirements.txt
+├── README.md
+└── screenshots/
 ⚠️ Limitations
-Uses in-memory storage (no database)
-No authentication system
+Uses in-memory data (no database)
+No authentication or user management
 Not production-ready
-🔮 Future Improvements
-✅ Database integration (SQLite / PostgreSQL)
-🔐 JWT Authentication system
-🧩 Modular architecture (routers, services)
-🐳 Docker support for deployment
-📦 Deployment on cloud (Render / AWS)
-🎯 Learning Outcomes
+🎯 Future Improvements
+Add database (SQLite / PostgreSQL with SQLAlchemy)
+Implement authentication (JWT)
+Modular structure (routers, services, models)
+Dockerize the application
+📌 Author
 
-Through this project, I learned:
-
-FastAPI architecture and API design
-Real-world backend workflows
-Data validation using Pydantic
-Implementing business logic
-Structuring scalable backend systems
-👨‍💻 Author
-
-K Sanjay Kumar
-Aspiring Data Scientist | Backend Developer
+Sanjay Kumar
+Aspiring Software Developer | FastAPI Enthusiast
