@@ -50,7 +50,7 @@ pip install -r requirements.txt
 3. Run the server
 uvicorn main:app --reload
 4. Open API Docs
-http: // 127.0.0.1:8000 / docs
+http://127.0.0.1:8000/docs
 
 ### 📸 API Preview
 
@@ -79,3 +79,4 @@ Dockerize the application
 K Sanjay Kumar
 
 Aspiring Software Developer | FastAPI Enthusiast
+  
