@@ -1,7 +1,7 @@
 ### 🛒 FastAPI Grocery Delivery Backend
 
 A complete backend system for a grocery delivery application built using FastAPI. This project demonstrates real-world backend concepts such as API design, cart workflows, order processing, and advanced query handling.
-
+------------------------------------------------------------------------
 ### 🚀Features
 RESTful APIs using FastAPI
 Pydantic-based request validation
