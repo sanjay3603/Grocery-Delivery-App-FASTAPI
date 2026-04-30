@@ -51,6 +51,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 4. Open API Docs
 http://127.0.0.1:8000/docs
+
 ### 📸 API Preview
 
 Swagger UI is available for testing all endpoints.
