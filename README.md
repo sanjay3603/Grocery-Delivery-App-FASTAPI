@@ -57,12 +57,12 @@ Swagger UI is available for testing all endpoints.
 (Add your screenshots inside /screenshots folder)
 
 ### 📁 Project Structure
-grocery-api/
-│
-├── main.py
-├── requirements.txt
-├── README.md
-└── screenshots/
+### grocery-api/
+### │
+### ├── main.py
+### ├── requirements.txt
+### ├── README.md
+### └── screenshots/
 ### ⚠️ Limitations
 Uses in-memory data (no database)
 No authentication or user management
