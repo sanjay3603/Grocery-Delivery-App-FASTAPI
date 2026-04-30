@@ -76,4 +76,5 @@ Dockerize the application
 ### 📌 Author
 
 K Sanjay Kumar
+
 Aspiring Software Developer | FastAPI Enthusiast
