@@ -58,11 +58,12 @@ Swagger UI is available for testing all endpoints.
 
 ### 📁 Project Structure
 ### grocery-api/
-### │
-### ├── main.py
-### ├── requirements.txt
-### ├── README.md
-### └── screenshots/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+└── screenshots/
+
 ### ⚠️ Limitations
 Uses in-memory data (no database)
 No authentication or user management
@@ -74,5 +75,5 @@ Modular structure (routers, services, models)
 Dockerize the application
 ### 📌 Author
 
-## K Sanjay Kumar
+K Sanjay Kumar
 Aspiring Software Developer | FastAPI Enthusiast
