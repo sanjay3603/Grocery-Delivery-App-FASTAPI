@@ -1,8 +1,8 @@
-🛒 FastAPI Grocery Delivery Backend
+### 🛒 FastAPI Grocery Delivery Backend
 
 A complete backend system for a grocery delivery application built using FastAPI. This project demonstrates real-world backend concepts such as API design, cart workflows, order processing, and advanced query handling.
 
-🚀 Features
+### 🚀### Features
 RESTful APIs using FastAPI
 Pydantic-based request validation
 Full CRUD operations for grocery items
@@ -13,8 +13,8 @@ Delivery charge calculation (slot-based)
 Search, filter, sorting, and pagination
 Order management with query support
 Interactive API testing via Swagger UI
-🧠 Core Functionalities
-📦 Items
+### 🧠 Core Functionalities
+### 📦 Items
 Add new items
 Update item details
 Delete items
@@ -22,26 +22,26 @@ Filter by category, price, and stock
 Search items by keyword
 Sort items (price, name, etc.)
 Pagination support
-🛒 Cart
+### 🛒 Cart
 Add items to cart
 Merge quantities for existing items
 Remove items from cart
 View cart with total price
-💳 Checkout
+### 💳 Checkout
 Convert cart into orders
 One order created per item
 Apply bulk discount logic
 Calculate final cost with delivery charges
-📑 Orders
+### 📑 Orders
 Place orders directly
 Search orders by customer name
 Sort orders by total cost
 Pagination support
-🛠 Tech Stack
+### 🛠 Tech Stack
 Python
 FastAPI
 Pydantic
-▶️ Run Locally
+### ▶️ Run Locally
 1. Clone the repository
 git clone <your-repo-link>
 cd grocery-api
@@ -51,28 +51,28 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 4. Open API Docs
 http://127.0.0.1:8000/docs
-📸 API Preview
+### 📸 API Preview
 
 Swagger UI is available for testing all endpoints.
 (Add your screenshots inside /screenshots folder)
 
-📁 Project Structure
+### 📁 Project Structure
 grocery-api/
 │
 ├── main.py
 ├── requirements.txt
 ├── README.md
 └── screenshots/
-⚠️ Limitations
+### ⚠️ Limitations
 Uses in-memory data (no database)
 No authentication or user management
 Not production-ready
-🎯 Future Improvements
+### 🎯 Future Improvements
 Add database (SQLite / PostgreSQL with SQLAlchemy)
 Implement authentication (JWT)
 Modular structure (routers, services, models)
 Dockerize the application
-📌 Author
+### 📌 Author
 
-Sanjay Kumar
+## K Sanjay Kumar
 Aspiring Software Developer | FastAPI Enthusiast
